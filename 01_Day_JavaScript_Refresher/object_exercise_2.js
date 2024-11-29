@@ -73,14 +73,30 @@ for (const user of Object.values(users)) {
 
 console.log(count)
 
-// TODO
-console.log(Object.entries(users))
-let mernDevelopers = Object.entries(users).filter((name, user) => {
-    let hasMongoDb = user.skills.includes("MongoDB")
-    let hasExpress = user.skills.includes("Express")
-    let hasReact = user.skills.includes("React")
-    let hasNode = user.skills.includes("Node")
-    return hasMongoDb && hasExpress && hasReact && hasNode
-})
+const MERN = ["MongoDB", "Express", "React", "Node"]
+let mernDevelopers = new Array()
+for (key in users) {
+    let user = users[key]
+    if (MERN.every(skill => user.skills.includes(skill))) {
+        mernDevelopers.push(user)
+    }
+}
 
 console.log(mernDevelopers)
+
+users.Stephane = {
+    email: "stephaneleong@gmail.com",
+    skills: ["Python", "JavaScript", "React"],
+    age: 23,
+    isLoggedIn: true,
+    points: 100
+}
+
+console.log(users)
+
+console.log(Object.keys(users))
+console.log(Object.values(users))
+
+
+
+

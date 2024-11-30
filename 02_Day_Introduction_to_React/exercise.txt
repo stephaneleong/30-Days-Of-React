@@ -1,0 +1,91 @@
+# What is React?
+React is a JavaScript library for building a reusable user interface(UI).
+
+# What is a library?
+A programming library is a collection of prewritten code that programmers can use to optimize tasks.
+
+# What is a single page application?
+It is application with only one web page and instead changes by dynamically rewriting the current web page.
+
+# What is a component ?
+In a React app, every piece of UI is a component.
+
+# What is the latest version of React?
+18.2.0
+
+# What is DOM?
+it stands for Document Object Model, it is an interface that presents each HTML element as an object.
+
+# What is React Virtual DOM?
+VirtualDOM in React is a lightweight copy of the actual DOM(a virtual representation of the DOM) used to optimize the updates on web page. So for every object that exists in the original DOM, there is an object for that in React Virtual DOM
+
+#  What does a web application or a website(composed of) have?
+A web application is composed of a frontend, backend, networking and security.
+
+Exercises: Why React?
+
+Why did you chose to use react?
+It is the most popular Javascript Framework out there.
+
+What measures do you use to know popularity?
+To measure popularity, I use the popularity of use. In 2024, React is the 2nd largest web technology used by developers.
+
+
+What is more popular, React or Vue ?
+React. Although, Vue may have more developers working on it.
+
+Exercises: JSX
+What is an HTML element?
+An HTML element consists of a start tag, content, and an end tag. For example, <p>Hello World</p> is a paragraph element.
+
+How to write a self closing HTML element?
+Self-closing tags, also known as void elements, do not have content or an end tag. Examples include <br>, <img>, and <input />.
+
+What is an HTML attribute? Write some of them
+HTML attributes provide additional information about HTML elements.
+The entire list of HTML attributes can found here --> https://www.w3schools.com/tags/ref_attributes.asp
+some of these attributes are such as width, height, onclick, id, etc.
+
+What is JSX?
+JSX stands for Javascript XML, this allows us to write HTML element with Javascript Code.
+What is babel?
+Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
+Babel can convert JSX syntax! Check out our React preset to get started. Use it together with the babel-sublime package to bring syntax highlighting to a whole new level.
+
+What is a transpiler?
+transpiler also convert an input source code written in some language into an output code in a different language, that has a similar level of abstraction as compared to the source code.
+
+Exercises: JSX Elements
+What is a JSX element?
+It is a javascript variable that stores a HTML element.
+
+Write your name in a JSX element and store it in a name variable
+
+
+Write a JSX element which displays your full name, country, title, gender, email, phone number. Use h1 for the name and p for the rest of the information and store it in a user variable
+
+Write a footer JSX element
+
+Exercises: Inline Style
+Create a style object for the main JSX
+Create a style object for the footer and app JSX
+Add more styles to the JSX elements
+Exercises: Internal Styles
+Apply different styles to your JSX elements
+Exercise: Inject data to JSX
+Practice how to make JSX element and injecting dynamic data(string, number, boolean, array, object)
+
+References:
+https://careerfoundry.com/en/blog/web-development/programming-library-guide/#what-is-a-programming-library
+https://stackoverflow.com/questions/62529631
+https://react.dev/learn/your-first-component
+https://legacy.reactjs.org/versions/
+https://en.wikipedia.org/wiki/Document_Object_Model
+https://www.geeksforgeeks.org/reactjs-virtual-dom
+https://survey.stackoverflow.co/2024/technology
+https://www.geeksforgeeks.org/html-elements/
+https://www.geeksforgeeks.org/what-are-self-closing-tags-in-html/
+https://www.w3schools.com/html/html_attributes.asp
+https://www.w3schools.com/tags/ref_attributes.asp
+https://babeljs.io/docs/
+https://www.geeksforgeeks.org/difference-between-transpiler-and-compiler/

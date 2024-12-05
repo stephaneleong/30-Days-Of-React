@@ -1,0 +1,150 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Roboto:300,400,500&display=swap"
+    rel="stylesheet" />
+  <meta name="description" content="Web site created using create-react-app" />
+
+  <title>30 Days Of React App</title>
+  <style>
+    /* == General style === */
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    html,
+    body {
+      height: 100%;
+      line-height: 1.5;
+      font-family: 'Montserrat';
+      font-weight: 300;
+      color: black;
+    }
+
+    .root {
+      min-height: 100%;
+      position: relative;
+    }
+
+    .header-wrapper,
+    .main-wrapper,
+    .footer-wrapper {
+      width: 85%;
+      margin: auto;
+    }
+
+    .header-wrapper,
+    .main-wrapper {
+      padding: 10px;
+      margin: 2px auto;
+    }
+
+    h1 {
+      font-size: 70px;
+      font-weight: 300;
+    }
+
+    h2,
+    h3 {
+      font-weight: 300;
+    }
+
+    header {
+      background-color: #61dbfb;
+      padding: 10px;
+    }
+
+    main {
+      padding: 10px 10px 60px;
+      /* Height of the footer */
+    }
+
+    ul {
+      margin-left: 15px;
+    }
+
+    ul li {
+      list-style: none;
+    }
+
+    footer {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: auto;
+      /* Height of the footer */
+      background: #C2E6F4;
+    }
+
+    .footer-wrapper {
+      font-weight: 400;
+      text-align: center;
+      line-height: 60px;
+    }
+
+    .full-page-image {
+      width: 100%;
+      height: auto;
+    }
+
+
+    .newsletter h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .newsletter p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .newsletter input[type="text"],
+    .newsletter input[type="email"] {
+      width: calc(33% - 10px);
+      padding: 10px;
+      margin: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .newsletter input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      background-color: #f12121;
+      border-radius: 4px;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .capitalize {
+      text-transform: uppercase;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .skill-item {
+      background-color: #2ae1f1;
+      margin: 5px;
+      padding: 10px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>

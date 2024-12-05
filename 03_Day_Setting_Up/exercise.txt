@@ -1,0 +1,40 @@
+What is a module?
+Modules is code from one file that can be used across the project
+
+What is package?
+A package is a downloadable, versioned library
+
+What is the difference between a module and a package.
+A package is collection of modules.
+
+What is NPM?
+npm stands for Node Package Manager. It allows users to download and share packages with other developers.
+
+What is Webpack?
+Webpack goes through your package and creates what it calls a dependency graph which consists of various modules which your webapp would require to function as expected. Then, depending on this graph, it creates a new package which consists of the very bare minimum number of files required, often just a single bundle.js file which can be plugged in to the html file easily and used for the application.
+
+How do you create a new React project?
+create-react-app <app name>
+
+What are the files and folders inside a project folder(package.json, package-lock.json or yarn.lock, .gitignore,node_modules and public)?
+node_modules - stores all the necessary node packages of the React applications.
+index.html - the only HTML file we have in the entire application
+index.js - a file which allows to connect all the components with index.html
+package.json- List of packages the applications uses
+.gitignore - React boilerplate comes with git initiated, and the .gitingore allows files and folders not to be pushed to GitHub
+yarn.lock or package-lock.json - a means to lock the version of the package
+
+
+What is your favorite code editor (I believe that it is Visual Studio Code)?
+Intellji IDEA
+
+Add different Visual Studio Code extensions to improve your productivity(eg. prettier, ESLint etc).
+
+
+Try to make a different custom module in a different file and import it to index.js.
+
+References:
+https://www.geeksforgeeks.org/how-to-modularize-code-in-reactjs/
+https://stackoverflow.com/questions/61399496/
+https://www.w3schools.com/whatis/whatis_npm.asp
+https://www.freecodecamp.org/news/an-intro-to-webpack-what-it-is-and-how-to-use-it-8304ecdc3c60/

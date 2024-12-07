@@ -1,0 +1,29 @@
+What is the difference between a regular function and an arrow function?
+1. keyword 'arguments' is not available in arrow functions.
+2. Arrow functions do not have their own 'this'. The value of 'this' inside an arrow function is always inherited from the enclosing scope.
+3. Functions can be hoisted at the top of the scope, but arrow functions are not hoisted.
+4. 'new' keyword can be used with regular functions, but not with arrow functions.
+
+What is a React Component?
+A React component is a reusable piece of code that describes a part of the user interface. It can be a button, a form, a dialog, a screen, etc.
+A component can be a class component or a functional component.
+
+How do you make a React functional component?
+A functional component is a simple JavaScript function that returns a React element. It is a pure function that takes props as an argument and returns a React element.
+
+What is the difference between a pure JavaScript function and a functional component?
+A pure JavaScript function is a regular function that can be called with arguments and returns a value. It is not specific to React or any other library.
+A functional component is a React-specific concept that is used to define a part of the user interface. It is a JavaScript function that returns a React element.
+
+How small is a React component?
+A React component can be as small as a single line of code or as large as a complex class with multiple methods and lifecycle hooks. The size of a component depends on its complexity and the functionality it provides.
+
+Can we make a button or input field component?
+Yes, we can make a button or input field component in React. These components can be reusable and customizable, allowing us to create consistent user interfaces across our application.
+
+Make a reusable Button component.
+Make a reusable InputField component.
+Make a reusable alert box component with one div parent element and one p child element of the div(warning alert box, success alert box).
+
+References:
+https://www.geeksforgeeks.org/difference-between-regular-functions-and-arrow-functions/
